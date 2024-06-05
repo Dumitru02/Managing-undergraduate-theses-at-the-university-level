@@ -1,0 +1,63 @@
+
+.ak {
+	
+  font-weight: 200;
+  font-size: 1.2em;
+  text-align: center;
+  color: #F0F8FF;
+  background-color: #008B8B;
+  font-family: Arial, Helvetica, sans-serif;
+ /* paragraf cercetare*/
+  
+}
+.video {
+	
+ 
+    position: absolute;
+    top: 22.3%;
+    bottom: 0;
+    right: 0;
+    left: 770px;
+    margin: auto;
+
+	/*video home*/
+	
+}
+
+  
+}
+
+
+
+.ml1 {
+  font-weight: 600;
+  font-size: 3.5em;
+  position: relative;
+  bottom: 0;
+  left: 900px;
+  background-color:#008B8B;
+  
+  
+
+  /*Titlu*/
+
+}
+.text{
+	border: 2px ;
+    padding: 10px;
+    border-radius: 50px 20px;
+    background: #73AD21;
+	font-family: "Times New Roman", Times, serif;
+
+	 /*Titlu*/
+
+}
+
+
+
+
+
+
+
+
+	

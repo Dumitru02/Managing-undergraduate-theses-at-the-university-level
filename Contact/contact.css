@@ -1,0 +1,62 @@
+
+body{
+	 background-image: url('contact.jpg');
+     background-repeat: no-repeat;
+	  
+}
+
+
+.bor{
+	  position:absolute;
+	  border: 6px solid red;
+      border-radius: 300px;
+	  border-color: #59ac59;
+	  width:900px;
+	  height:600px;
+	  left:250px;
+	  top:110px;
+	  background-color: #bfdfbf;
+}
+
+.fo{
+	  position:absolute;
+	  width:90px;
+	  height:60px;
+	  left:250px;
+	  top:110px;
+}
+
+textarea{
+  width: 500px; 
+  min-width:400px; 
+  max-width:400px; 
+  resize:none;
+
+	
+}
+
+button{
+	
+  
+  padding: 10px !important;
+  text-align: center !important;
+  width: 400px  !important; 
+  font-size: 16px !important;
+  margin: 4px 2px !important;
+ 
+  padding: 10px !important;
+  border-radius: 25px !important;
+}
+label{
+	font-size: 19px;
+	 font-family: "Times New Roman", Times, serif;
+}
+h1{
+	  position:absolute;
+	  left:330px;
+	  top:30px;
+	  font-family: "Times New Roman", Times, serif;
+	  font-size: 40px;
+	  color:#262626;
+}
+

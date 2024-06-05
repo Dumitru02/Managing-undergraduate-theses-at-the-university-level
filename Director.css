@@ -1,0 +1,578 @@
+
+body {
+	  font-family: Arial, Helvetica, sans-serif;
+	  background-image: url("p1.jpg");
+	 
+	  background-color:NavajoWhite;
+	  overflow-x: hidden; /*  ascunderea scroll x */
+	  
+	
+	 
+}
+
+
+h1{
+	
+	position:relative;
+	top:35px !important;
+	font-size: 50px;
+	color: white !important;
+    padding: 8px;
+	width: 50%; 
+	margin-left: 25% !important;
+	font-family: Times, "Times New Roman", serif;
+	/*br in css*/
+	
+    margin-bottom: 12% !important;
+	text-align:center;
+	
+	border:2px solid white;
+	border-radius: 20px 20px;
+	
+	
+}
+
+/* table*/
+
+.my-custom-scrollbar {
+	position: static;
+	height: 300px;
+	width: 98%; 
+	overflow: auto;
+	margin-left: 10px;
+	display: block;
+	border:3px solid black;
+}
+.table-wrapper-scroll-y {
+	display: block;
+	margin-bottom: 8% ;
+}
+
+th,tr,tbody{
+	text-align: center;
+	background-color:#F0FFFF;
+	
+	
+}
+#dep{
+	
+    
+	margin:40%;
+	font-family:  Times, "Times New Roman", serif;
+	font-size: 33px;
+	color:white;
+	border:2px solid white;
+	border-radius:10px;
+	padding:10px;
+	
+	
+/*titlu departamentelor*/
+	
+}
+
+
+
+#button{
+	
+	margin-left:38.5%;	
+	
+}
+
+
+
+#butt3{
+	
+	position:absolute;
+	top:140%;
+	margin-left:500px;
+	/* button departament 3 */
+	
+	
+}
+
+
+
+
+
+
+
+
+
+#baza_date{
+	
+	position:absolute;
+	margin-top:-55%;
+	margin-left:5%;
+	height: 300px;
+	width: 100%; 
+	
+	
+}
+
+
+/* home button*/
+#home_{
+	
+	position:relative;
+	top:-100px;
+	margin-left:46.9%;
+	
+}
+
+#sterge_cont{
+	
+	/*pozitonare button  stergere  conturi din baza de date */
+	
+	position:absolute;
+	top:151%;
+	margin-left:10%;
+	
+	
+	
+}
+
+#cont_titlu{
+	/*pozitonare titlului Conturi  stergere */
+	
+	margin:40%;
+	font-family:  Times, "Times New Roman", serif;
+	font-size: 33px;
+	color:white;
+	border:2px solid white;
+	border-radius:10px;
+	padding:10px;
+
+	
+}
+
+
+#dep_2_button{
+	
+	position:absolute;
+	top:420px;
+	margin-left:20%;
+	text-align: center;
+    /* button departament 1 */
+	
+}
+
+#dep_2{
+	
+	position:absolute;
+	top:50px;
+	margin-left:500px;
+	
+    /* button departament 2 */
+	
+}
+
+
+#cauta2{
+	
+	width:200px;
+	
+	margin-left:22px;
+	/*departament 2 */
+}
+#cauta_2{
+	
+	width:250px;
+	margin-left:22px;
+	/*departament 2 */
+}
+
+#dist1{
+	
+    margin-bottom: 20%;
+	/* distanta departamen 1 si departamen 3*/
+	
+}
+#dist_0{
+	margin-bottom: 40px;
+	/* distanta departamen 1  fata de titlu*/
+	
+	
+}
+
+#dist_bd{
+	
+	margin-bottom:10%;
+	/* distanta departamen 1  fata de titlu*/
+}
+
+#graf{
+	
+ 
+  background-color: lightblue;
+  width: 600px;
+  height: 400px;
+  position: relative;
+  top: -60px;
+  margin-left:55%;
+   
+	/* pozitonare  grafic*/
+	
+}
+
+
+
+#graf_2{
+	
+  background-color: lightblue;
+  width: 600px;
+  height: 400px;
+  position: relative;
+  top: -455px;
+  margin-left:7%;
+ 
+   
+}
+
+#analiza_dep1{
+	position:absolute;
+	margin-top:-108px;
+	margin-left:6.5%;
+	
+	
+	/*button dep 1  analiza */
+	
+}
+
+#analiza_dep3{
+	position:absolute;
+	margin-top:-510px;
+	margin-left:20px;
+	
+	
+	/*button dep 3  analiza */
+	
+}
+
+
+#analiza_dep2{
+	position:absolute;
+	margin-top:-100px;
+	margin-left:21px;
+	
+	
+	/*button dep 2	  analiza */
+	
+}
+
+
+#director{
+	
+	margin-top:-190px !important;
+	margin-left:20px;
+	width:30%;
+	
+	
+	
+}
+
+#Adauga_1{
+	
+	
+	position:absolute;
+	top:92%;
+	margin-left:35%	;
+	/*departamnet 1*/
+}
+
+
+#Adauga_2{
+	
+	
+	position:absolute;
+	top:105%;
+	margin-left:35%	;
+	/*departamnet 2 */
+}
+
+
+#Adauga_3{
+	
+	
+	position:absolute;
+	top:85%;
+	margin-left:62%	;
+	
+	/*departamnet 3 */
+}
+
+#analiza_dep1{
+	
+	width:100px;
+	height:100px;
+}
+
+
+/*dep1 -------------*/
+#select-multi{
+	position:absolute;	
+	width:100px ;
+	top:96.5%;
+	margin-left:16%;
+}
+
+#select-multi2{
+	position:absolute;	
+	width:100px ;
+	top:96.5%;
+	margin-left:26.5%;
+}
+
+/*--------------------*/
+
+
+
+
+/*dep 2*/
+#select-multi1{
+	position:absolute;	
+	width:120px ;
+	top:92%;
+	margin-left:63%;
+}
+
+#select-multi3{
+	position:absolute;	
+	width:100px ;
+	top:92%;
+	margin-left:73%;
+}
+
+/*---------------------------*/
+
+
+
+
+/*dep 3*/
+#select-multi20{
+	
+	position:absolute;
+	width:100px;
+	margin-top:-190px !important;
+	margin-left:450px;
+	
+}
+
+#select-multi4{
+	position:absolute;	
+	width:100px ;
+	-top:280%;
+	margin-left:-31%;
+}
+
+/*---------------------------*/
+
+#ani{
+	
+	color:white;
+	font-family:  Times, "Times New Roman", serif;
+    font-size:20px;
+	
+}
+
+
+#raport{
+	position:absolute;
+	top:455px;
+	margin-left:400px;
+}
+
+
+/*edit button*/
+.active {
+  background-color: green;  
+}
+
+.inactive {
+  background-color: blue;
+}
+/*-------------------------------------*/
+#edit{
+	
+	position:absolute;
+	margin-top:-95.5%;
+	margin-left:55%;
+    font-size:25px;
+}
+
+#sterge{
+	
+	
+	position:absolute;
+	margin-left:70%;
+	top:98%;
+}
+
+#cauta{
+	position:absolute;
+	width:15%;
+	margin:20px;
+	margin-top:-38px;
+	
+}
+
+#raport_1{
+	
+	position:absolute;
+	margin-top:-33.2%;
+	margin-left: 7.5%;
+   
+}
+
+#select_rap_1{
+	
+	position:absolute;	
+	width:100px ;
+	top:182%;
+	margin-left:16%;
+	
+	
+	
+	
+}
+
+#rap_2{
+	
+	position:absolute;	
+	width:100px  !important;
+	top:182%;
+	margin-left:25%;
+}
+
+
+#prof_1{
+	position:absolute;	
+	width:100px ;
+	top:145%;
+	margin-left:37%;
+	
+	
+}
+
+#prof_2{
+	position:absolute;	
+	width:100px ;
+	top:145%;
+	margin-left:45%;
+	
+	
+}
+#cauta_prof{
+	
+	width:200px;
+	margin-left:192px;
+}
+#categori_raport{
+	
+	position:absolute;	
+	width:150px ;
+	top:146%;
+	margin-left:60%;
+	
+	
+}
+
+#categori_2{
+	
+	position:absolute;	
+	width:150px ;
+	top:82.5%;
+	margin-left:50%;
+	
+}
+
+#graf-1{
+	
+	position:absolute;	
+	width:100px ;
+	top:186.5%;
+	margin-left:34.5%;
+	color:white;
+	
+}
+
+.navbar {
+ 
+  background-color: #555;
+  overflow: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: static;
+  top: 0px;
+  width: 100%;
+  border-radius: 25px;	
+ 
+}
+
+
+.navbar a {
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 70px 1px;
+}
+
+.navbar a#sign_out {
+}
+
+.navbar a:hover {
+  background-color: #4B0082;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+}
+#data_1{
+	position:absolute;
+	 margin-top:-420px;
+	 margin-left:5%;
+}
+#data_2{
+	position:absolute;
+	 margin-top:-420px;
+	 margin-left:20%;
+}
+
+#muta_tabel{
+	
+	margin-left:180px;
+	width:70%;
+	
+}
+
+#data_3{
+	position:absolute;
+	 margin-top:-40px;
+	 margin-left:35%;
+}
+#data_4{
+	position:absolute;
+	 margin-top:-40px;
+	 margin-left:48%;
+}
+
+
+td.volume p, td.title p, td.authors p {
+    border-radius: 0px !important;
+    text-overflow:ellipsis;
+    width: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+td.volume p:hover, td.title p:hover, td.authors p:hover{
+    text-overflow:clip;
+    width:auto;
+    white-space: normal;
+}
+
+
+

@@ -1,0 +1,44 @@
+body{
+	
+	background-image: url("parola2.jpg");
+    background-color: #cccccc;
+   
+}
+
+
+form{
+	
+  position: relative;
+  top: 200px;
+  margin-left: 33%;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  font-size: 30px;
+  border: 2px solid blue;
+  border-radius: 25px;
+  background-color: white;
+  
+  
+
+}
+
+label{
+	color: blue;
+}
+
+button{
+	position: relative; 
+	top: 10px;
+}
+h2{
+	
+	text-align: center;
+	
+}
+
+	
+
+
+
+	

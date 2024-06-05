@@ -1,0 +1,87 @@
+form{
+	
+ 
+  margin: 12%;
+  width: 30%;
+  padding: 10px;
+  right: 20px;
+  color: blue;
+
+  
+ 
+}
+html{
+	overflow: hidden; 
+}
+
+
+/*Înregistrează-te*/
+
+
+.reg{   
+
+        position: absolute;
+		top: 190px;
+        right: 200px;
+		width:500px;
+		height: 300px;
+		padding: 10px;
+		
+		
+		
+		
+		
+}
+/*titlul reg*/
+
+.treg{
+	    position: absolute;
+		top: 95px;
+        right: 200px;
+		width:500px;
+		height: 300px;
+		padding: 10px;
+	    color: blue;
+	 
+}
+/*border Autentificare*/
+.blog{
+	  border: 100px solid blue;
+	  
+	
+	  padding: 20px;
+	
+	  border-image: url(stele.jpg) 30 stretch ;
+	  
+	  
+	   
+	  
+}
+.titlu{
+	position: absolute;
+	top: -60px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	color:black;
+
+	
+}
+/*separtor intre login si  register*/
+.sep{
+	
+	border-left: 6px solid green;
+    height: 420px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 130px;
+	
+}
+
+#rec{
+	
+	margin-top:10px;
+}
+
+	
+	

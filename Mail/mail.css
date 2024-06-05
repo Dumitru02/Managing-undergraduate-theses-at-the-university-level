@@ -1,0 +1,68 @@
+body{
+	 
+     background-color: #cccccc;  
+	 background-image: url("mail.JFIF");
+	 
+	
+	 
+}
+
+
+
+form{
+	
+ color: blue;
+ padding: 50px;
+ font-size:20px;
+ 
+ 
+  
+}
+html{
+	overflow: hidden; 
+}
+
+
+.blog{
+	  display:block;
+	  margin-left: 32.9%;
+	  margin-top: 8%; 
+	  border: 2px solid black;
+	  border-radius:50px;
+	  width: 35%;
+	  text-align: center;
+	  background-image: url("mail2.png");
+	
+	/*  pozitonare border cu  formular*/  
+	 
+}
+.titlu{
+	
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: blue;
+	
+	
+}
+ #site{
+	 
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-size:45px;
+	 text-align: center;	
+	 color: black;
+	 display:block;
+	 margin-top: 50px;
+	 border: 2px solid black;
+	 border-radius: 25px 25px;
+	 border-color: white;
+	 width: 40%;
+	 margin-left:30%;
+	 background-color:white;
+	 
+ }
+
+
+
+
+	
+	

@@ -1,0 +1,120 @@
+.my-custom-scrollbar {
+position: static;
+height: 300px;
+width: 50%; 
+overflow: auto;
+margin-left: 45px;
+display: block;
+margin-top: 10%;
+border:3px solid black;
+}
+.table-wrapper-scroll-y {
+display: block;
+display: block;
+margin-bottom: 8% ;
+}
+
+th,tr,tbody{
+	text-align: center;
+	background-color:#F0FFFF;
+	
+}
+
+#reg{   
+
+        position: absolute;
+		top: 120px;
+        right: 100px;
+		width:500px;
+		height: 300px;
+		padding: 10px;	
+	
+		
+	
+		
+		
+/*Înregistrează-te*/
+		
+}
+
+
+
+#treg{
+	    position: absolute;
+		top:30px;
+        right: 100px;
+		width:500px;
+		height: 300px;
+		padding: 10px;
+	    color: blue;
+		font-family: Arial, Helvetica, sans-serif;
+		border:2px solid black;
+		border-radius:25px 25px;
+		background-color:white;
+		height:95%;
+		/*titlul reg  aici baga border */
+	 
+}
+
+#buton{
+	
+	margin-top:-7%;
+	margin-left:15%;
+}
+
+#titlu{
+
+	margin-left:18%;
+	margin-top:-25px;
+	font-size:60px;
+	font-family: Arial, Helvetica, sans-serif;
+	border:2px solid  black;
+	border-radius:25px 25px;
+	background-color:white;
+	width:25%;
+	text-align:center;
+	
+}
+
+label{
+	
+	color:blue;
+	font-size:18px;
+}
+
+h2{
+		margin-top:-32%;	
+		width:40%;
+		font-family: Arial, Helvetica, sans-serif;
+		margin-left:10%;
+		color:white;
+		
+}
+
+
+#color{
+	background-color:white;
+}
+
+body{
+	 background-image: url("admin.jpg");
+     background-color: #cccccc;
+}
+#buton_retrage{
+	
+	margin-top:20.8%;
+	margin-left:40%;
+}
+#sign-out{
+	color :black;
+	border:2px solid white ;
+	background-color:white;
+	border-radius: 25px 25px;
+	width:115px;
+	height:30px;
+}
+
+
+
+
+  

@@ -1,0 +1,157 @@
+
+body {
+	  font-family: Arial, Helvetica, sans-serif;
+	  background-image: url("raport1.jpg");
+	 
+	  background-color:NavajoWhite;
+	  overflow-y: hidden; /*  ascunderea scroll x */
+	   overflow-x: hidden;
+	
+	 
+}
+
+
+h1{
+	
+	position:relative;
+	top:35px;
+	font-size: 50px;
+	color:white;
+    padding: 8px;
+	width: 50%; 
+	margin-left: 25%;
+	font-family: Times, "Times New Roman", serif;
+	/*br in css*/
+	
+    margin-bottom: 12% ;
+	text-align:center;
+	
+	border:2px solid white;
+	border-radius: 20px 20px;
+	
+	
+}
+
+/* table*/
+
+.my-custom-scrollbar {
+	position: static;
+	height: 300px;
+	width: 53%; 
+	overflow: auto;
+	margin-left: -20px;
+	display: block;
+	border:3px solid black;
+}
+.table-wrapper-scroll-y {
+	display: block;
+	margin-bottom: 8% ;
+}
+
+th,tr,tbody{
+	text-align: center;
+	background-color:#F0FFFF;
+	
+	
+}
+#dep{
+	
+	position:absolute;
+	top:-92%;
+	
+	margin:17%;
+	font-family:  Times, "Times New Roman", serif;
+	font-size: 33px;
+	color:white;
+	border:2px solid white;
+	border-radius:10px;
+	padding:10px;
+
+	/* Titlu carti */
+}
+
+#dep_1{
+	
+	position:absolute;
+	top:-95%;
+	
+	margin:17%;
+	font-family:  Times, "Times New Roman", serif;
+	font-size: 33px;
+	color:white;
+	border:2px solid white;
+	border-radius:10px;
+	padding:10px;
+
+	/* Titlu   lucrari*/
+}
+
+
+
+
+
+
+
+
+
+#dep2_muta{
+	
+	position:absolute;
+	top:428px;
+	margin-left:46%;
+	width: 102%;
+    height:50%; 
+	/* pozitonare departamen 2*/
+	
+}
+
+#dep1_muta{
+	
+	position:absolute;
+	top:100px;
+	margin-left:3%;
+	width: 105%;
+    height:50%; 
+	/* pozitonare departamen 2*/
+	
+}
+
+
+}
+#dist{
+	 
+	position:absolute !important; 
+	top:50% !important;
+	
+}
+
+#poza{
+	
+	margin-top:50px;
+	margin-left:62%;
+	
+	
+}
+#poza2{
+	
+	margin-top:110px;
+	margin-left:-155%;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,274 @@
+* {box-sizing: border-box;
+    
+	
+	
+	
+}
+body {font-family: Arial, Helvetica, sans-serif;
+	  background-image: url("lucrari.jpg");
+	  background-color:NavajoWhite;
+	  overflow: hidden;
+	 
+}
+
+
+.navbar {
+ 
+  background-color: #555;
+  overflow: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: static;
+  top: 0px;
+  width: 100%;
+  border-radius: 25px;	
+ 
+}
+
+
+.navbar a {
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 70px 1px;
+  margin-left:50px;
+ 
+}
+
+.navbar a#sign_out {
+}
+
+.navbar a:hover {
+  background-color: #4B0082;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+}
+
+
+#color{
+	background-color: #d3d3d3;
+    background-image: url("lucrari_2.jpg");
+	height: 1978px;
+	box-sizing: border-box;
+	width: 1000px;
+	border-radius: 100px 100px;
+	
+		
+}
+
+
+
+/* table*/
+
+.my-custom-scrollbar {
+position: static;
+height: 300px;
+width: 150%; 
+overflow: auto;
+margin: 20px;
+display: block;
+margin-bottom: 30%;
+border: 3px solid black;
+}
+.table-wrapper-scroll-y {
+display: block;
+display: block;
+margin-bottom: 8% ;
+}
+
+th,tr,tbody{
+	text-align: center;
+	background-color: #F0FFFF;
+	
+	
+}
+
+
+
+
+
+/* Adaugati lucrari */
+
+
+
+
+
+	
+
+
+
+	
+		
+}
+
+#incarca{
+	
+	position:ablosute;
+	margin-left: -250px;
+	margin-top:95px;
+		
+}
+
+
+
+
+	
+
+
+
+
+
+label{
+	color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  height: -144px;
+  position: relative;
+  
+}
+
+.vertical-center {
+  margin-left:40%;
+  position: absolute;
+  margin-top: -35px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/*dep1 -------------*/
+#select-multi{
+	position:absolute;	
+	width:100px ;
+	top:86%;
+	margin-left:22%;
+	
+ 
+}
+
+#select-multi2{
+	position:absolute;	
+	width:100px ;
+	top:86%;
+	margin-left:41%;
+}
+
+/*--------------------*/
+#sterge{
+	
+	
+	position:absolute;
+	margin-left:1.5%;
+	top:75%;
+}
+#edit{
+	
+	
+	position:absolute;
+	margin-left:54%;
+	top:76%;
+	font-size:25px;
+	
+	border-radius:20px;
+	
+}
+
+input.editfield {
+    border-radius: 0px !important;
+}
+
+#cauta{
+	position:absolute;
+	width:15%;
+	margin:100px;
+	margin-top:-19px;
+	
+}
+
+#de-la{
+	color:black;
+	font-family:  Times, "Times New Roman", serif;
+font-size:20px;
+}
+
+/*edit button*/
+
+/*-------------------------------------*/
+
+
+#cat{
+	
+	position:absolute;	
+	width:150px ;
+	
+	margin-left:15%;
+}
+
+
+#alege{
+	
+	
+	font-family:  Times, "Times New Roman", serif;
+	font-size:22px;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+td.uploaded_at input {
+    border-radius: 0px !important;
+    width: 100px;
+}
+
+
+td.publication p, td.volume p, td.title p, td.authors p, td.publisher p, td.country p{
+    border-radius: 0px !important;
+    text-overflow:ellipsis;
+    width: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+td.publication p:hover, td.volume p:hover, td.title p:hover, td.authors p:hover, td.publisher p:hover, td.country p:hover{
+    text-overflow:clip;
+    width:auto;
+    white-space: normal;
+}
